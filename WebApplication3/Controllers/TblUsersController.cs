@@ -55,7 +55,8 @@ namespace WebApplication3.Controllers
                 return RedirectToAction("Index");
             }
 
-            return View(tblUser);
+            return null;
+            //return View(tblUser);
         }
 
         // GET: TblUsers/Edit/5
